@@ -1,4 +1,4 @@
-# Bladder cancer detection
+# Enhancing screening methods for Bladder Cancer Detection using Data Augmentation and Genetic Algorithm Strategies
 
 Bladder cancer is the most expensive of all cancers to diagnose, treat and monitor due to its
 reliance on manual procedures in each of these phases. It is also highly invasive for the
@@ -34,6 +34,7 @@ The permutation test used to test the results however might not be robust given 
 number of samples being tested and so while the research question is answered negatively
 the descriptive results show that it can be worthwhile employing the approach to other
 studies on BC detection from urine samples where more data is available.
+
 The descriptive statistics shows that there may be a positive monotonic relationship between
 the size of synthetic dataset augmented to the training dataset, the fidelity of that synthetic
 data and model performance. But it needs to be tested by considering more sizes of
@@ -41,12 +42,14 @@ augmentation. This finding, if statistically valid, differs from other studies w
 most experiments the fidelity of synthetic data decreases as the number of samples
 increases. However, GANs are notoriously sensitive to their hyperparameters settings and
 these studies only ever utilised default values.
+
 It is important in a medical setting that the data a model is built on can be trusted and this
 means the fidelity of the synthetic data is sound and this study has concentrated on that
 aspect. Some studies solely investigate the impact of the size of synthetic datasets on model
 performance but this runs the risk of the synthetic data having artificial relationships
 between features which are not representative of both the real data and the domain
 knowledge on how different ion and enzymes relate to bladder cancer.
+
 Another key aspect of this study has been to build a model which can reduce the trade-off
 between false negatives and false positives and thus enable the user of the model to make
 better decisions about patient risk. So a primary aim was to increase the PR-AUC and try to
