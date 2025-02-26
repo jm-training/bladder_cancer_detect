@@ -1,5 +1,7 @@
 # Enhancing Screening Methods for Bladder Cancer Detection using Data Augmentation and Genetic Algorithm Strategies
 
+## Abstract
+
 Bladder cancer is the most expensive of all cancers to diagnose, treat and monitor due to its
 reliance on manual procedures in each of these phases. It is also highly invasive for the
 patient. The main non-invasive screening method currently in use is urine cytology where a
@@ -27,6 +29,8 @@ different sizes of augmented training datasets, evaluates its fidelity and ensur
 models are reliable for clinicians in terms of the extended training data maintaining the
 underlying structure of the original data and the predicted probabilities for the models reflect
 actual likelihoods (calibrated). 
+
+## Summary of findings
 
 The results of the experiments could not be proven to be statistically significant and hence
 the null hypothesis cannot be rejected, that is, there is no significant difference between PRAUC for a BC detection model enhanced by the use of DA & GA strategies and one without.
