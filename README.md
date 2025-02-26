@@ -1,4 +1,4 @@
-# Enhancing screening methods for Bladder Cancer Detection using Data Augmentation and Genetic Algorithm Strategies
+# Enhancing Screening Methods for Bladder Cancer Detection using Data Augmentation and Genetic Algorithm Strategies
 
 Bladder cancer is the most expensive of all cancers to diagnose, treat and monitor due to its
 reliance on manual procedures in each of these phases. It is also highly invasive for the
