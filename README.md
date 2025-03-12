@@ -63,3 +63,35 @@ considering label assignments studies rarely detail how they obtain their thresh
 performance metrics and so comparisons cannot be made easily. Also the need for models to
 be calibrated is a required for cancer detection models to ensure they are reliable, and this
 too is often overlooked in studies and hence their results could be falsely inflated. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Enhancing Screening Methods for Bladder Cancer Detection using Data Augmentation and Genetic Algorithm Strategies
+
+
+### Project objectives
+
+
+  
+### Analysis approach
+
+
+
+### Results/findings
+
