@@ -17,25 +17,25 @@
 2. Build a Conditional Tabular Generative Adverserial Network (CTGAN) to produce set numbers of synthetic observations from the original dataset (25%, 50%, 100%, 250%, 500% and 1,000% of size of original dataset)
    - cf. code '2a. Data augmentation - CTGAN - Default hyperparameters.ipynb'
 3. Repeat the (2) but for each augmentation scenario (e.g. 25%) optimise the GAN by selecting hyperparameters which maximise the fidelity score metrics of each synthetic dataset created (=evaluation function)
-   cf. code '2b. Data augmentation - CTGAN - Optimised hyperparameters.ipynb'
+   - cf. code '2b. Data augmentation - CTGAN - Optimised hyperparameters.ipynb'
 4. Use LGBM classifier to build predictive models for each augmented training dataset & evaluate on hold-out data
-   Use RFE for best feature subset selection & random search for hyperparameter tuning
-   Use custom PR-AUC function for all model performance evaluation on cross-validation folds and hold-out data datasets in line with project objective
-   Calibrate probability scores using Platt scaling to ensure that the predicted probabilities reflect the true likelihood of the corresponding outcomes
-   Evaluate models on the threshold invariant metrics of PR/ROC-AUC and hypothesis tests using permutation technique
-   cf. code '3a. Classification models - LGBM - Non-GA.ipynb'
+   - use RFE for best feature subset selection & random search for hyperparameter tuning
+   - use custom PR-AUC function for all model performance evaluation on cross-validation folds and hold-out data datasets in line with project objective
+   - calibrate probability scores using Platt scaling to ensure that the predicted probabilities reflect the true likelihood of the corresponding outcomes
+   - evaluate models on the threshold invariant metrics of PR/ROC-AUC and hypothesis tests using permutation technique
+   - cf. code '3a. Classification models - LGBM - Non-GA.ipynb'
 6. Similar to (4) but use Genetic Algorithm (GA) search to optimize selections of features and LGBM hyperparameters
-   Use Google GPUs to minimise processing time
-   cf. code '3b. Classification models - LGBM - GA'
+   - use Google GPUs to minimise processing time
+   - cf. code '3b. Classification models - LGBM - GA'
 7. Summary plots and tables on:
-   Exploratory data analysis
-   CTGAN generator and discriminator performances
-   Fidelity of synthetic data
-   Performance of best models versus baseline model
-   Feature importance
-   Calibration analysis on best models
-   Permutations testing on PR-AUCs of each model via hypothese tests
-   cf. '4a. Analysis summary 1' and '4b. Analysis summary 2'
+   - exploratory data analysis
+   - CTGAN generator and discriminator performances
+   - fidelity of synthetic data
+   - performance of best models versus baseline model
+   - feature importance
+   - calibration analysis on best models
+   - permutations testing on PR-AUCs of each model via hypothese tests
+   - cf. '4a. Analysis summary 1' and '4b. Analysis summary 2'
 
 
 ### Results/findings
