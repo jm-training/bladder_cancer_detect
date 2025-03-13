@@ -13,9 +13,9 @@
 ### Analysis approach
 
 1. Exploratory data analysis and data pre-processing on the raw medical dataset
-   cf. code '1. Data preprocessing.ipynb'
+   - cf. code '1. Data preprocessing.ipynb'
 2. Build a Conditional Tabular Generative Adverserial Network (CTGAN) to produce set numbers of synthetic observations from the original dataset (25%, 50%, 100%, 250%, 500% and 1,000% of size of original dataset)
-   cf. code '2a. Data augmentation - CTGAN - Default hyperparameters.ipynb'
+   - cf. code '2a. Data augmentation - CTGAN - Default hyperparameters.ipynb'
 3. Repeat the (2) but for each augmentation scenario (e.g. 25%) optimise the GAN by selecting hyperparameters which maximise the fidelity score metrics of each synthetic dataset created (=evaluation function)
    cf. code '2b. Data augmentation - CTGAN - Optimised hyperparameters.ipynb'
 4. Use LGBM classifier to build predictive models for each augmented training dataset & evaluate on hold-out data
