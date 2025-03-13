@@ -87,10 +87,23 @@ too is often overlooked in studies and hence their results could be falsely infl
 
 ### Project objectives
 
+1. Build a cancer/non-cancer classification model from bio-chemical and urinalysis data from voided urine samples which outperforms state-of-the-art models using the same data and has the protential for robust generalization
+2. Make recommendations on future research in cancer detection models from voided urine samples
 
-  
+
 ### Analysis approach
 
+1. Build a Generative Adversarial Network (GAN) to develop variously sized dataset augmentations
+2. is used to create synthetic data samples to be augmented to
+tabular training dataset and a genetic algorithm is employed to optimise the feature and
+hyperparameter selections of a lightGBM classifier. The aim is to develop a model which
+minimises the trade-off between false negatives and false positives when being used by a
+clinician for decision making on patient risk and hence improving the area under the
+precision-recall key is the key objective. A framework was developed which considers
+different sizes of augmented training datasets, evaluates its fidelity and ensures that the
+models are reliable for clinicians in terms of the extended training data maintaining the
+underlying structure of the original data and the predicted probabilities for the models reflect
+actual likelihoods (calibrated). 
 
 
 ### Results/findings
