@@ -1,4 +1,4 @@
-## Enhancing Screening Methods for Bladder Cancer Detection using Data Augmentation and Genetic Algorithm Strategies
+## Enhancing screening methods for bladder cancer detection using data augmentation and genetic algorithm strategies
 
 
 ### Project objectives
