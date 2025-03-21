@@ -4,17 +4,14 @@
   <tr>
     <td>
       <figure>
-        <img src="images/LGBM_perf_metrics1.PNG" width="1000">
+        <img src="images/LGBM_perf_metrics1.PNG" width="1200">
       </figure>
     </td>
     <td>
       <figure>
-        <img src="images/LGBM_perf_metrics2.PNG" width="1000">
+        <img src="images/LGBM_perf_metrics2.PNG" width="1200">
       </figure>
     </td>
-    <tr>
-    <th>Test1</th>
-    <th>Test2</th>
   </tr>
 </table>
 
