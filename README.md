@@ -68,4 +68,4 @@ considering label assignments studies rarely detail how they obtain their thresh
 5. Performance comparisons with SOA models is difficult because of the points raised in (4)
 
 
-![Image 1](calibration.png)  
+![Image 1](images/calibration.png)  
