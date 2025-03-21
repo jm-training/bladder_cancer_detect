@@ -4,12 +4,12 @@
   <tr>
     <td>
       <figure>
-        <img src="images/LGBM_perf_metrics1.PNG" width="200">
+        <img src="images/LGBM_perf_metrics1.PNG" width="1000">
       </figure>
     </td>
     <td>
       <figure>
-        <img src="images/LGBM_perf_metrics2.PNG" width="200">
+        <img src="images/LGBM_perf_metrics2.PNG" width="1000">
       </figure>
     </td>
     <tr>
