@@ -66,3 +66,6 @@
 considering label assignments studies rarely detail how they obtain their threshold variant performance metrics and so comparisons cannot be made easily. Also the need for models to be calibrated is a required for cancer detection models to ensure they are reliable, and this too is often overlooked in studies and hence their results could be falsely inflated
 
 5. Performance comparisons with SOA models is difficult because of the points raised in (4)
+
+
+![Image 1](calibration.png)  
