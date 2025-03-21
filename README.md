@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td><img src="images/LGBM_perf_metrics1.PNG" width="1200"></td>
+    <td style="padding-bottom: 20px;"><img src="images/LGBM_perf_metrics1.PNG" width="1200"></td>
   </tr>
   <tr>
     <td><img src="images/LGBM_perf_metrics2.PNG" width="1200"></td>
